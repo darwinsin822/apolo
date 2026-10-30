@@ -1,0 +1,36 @@
+name: APolo Skill CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Validate Bash Script Syntax
+        run: |
+          bash -n scripts/install.sh
+
+      - name: Test Hermetic Installation (Clean-Room Test)
+        run: |
+          TMP_HOME=$(mktemp -d)
+          HOME="$TMP_HOME" bash ./scripts/install.sh
+          if [ -f "$TMP_HOME/.gemini/config/skills/apolo/SKILL.md" ]; then
+            echo "✔ Clean-room install verified successfully."
+          else
+            echo "❌ Installation failed in isolated environment."
+            exit 1
+          fi
+          rm -rf "$TMP_HOME"
+
+      - name: Validate Skill Frontmatter and Structure
+        run: |
+          grep -q "^name: apolo" SKILL.md
+          grep -q "^description:" SKILL.md
+          echo "✔ Skill metadata verified."
