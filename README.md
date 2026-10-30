@@ -129,3 +129,14 @@ rm -rf "$TMP_HOME"
 ## 🛡️ Licencia
 
 Distribuido bajo la Licencia **MIT**. Creado por **DarwinSin** para elevar la calidad y mantenibilidad del software desarrollado en Google Antigravity.
+
+
+---
+
+## 📊 Evidencia de Ejecución en Vivo
+
+A continuación se muestra la evidencia empírica de la ejecución determinista del pipeline de verificación e integridad técnica:
+
+<div align="center">
+  <img src="./assets/apolo-execution.png" alt="Execution Results" width="95%" style="border-radius: 8px; border: 1px solid #282e3e; margin: 16px 0;" />
+</div>
