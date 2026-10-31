@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# APolo — Instalador Automatizado e Idempotente para Google Antigravity
+# APolo — Instalador Automatizado e Idempotente para Google Antigravity 2.0
 # ==============================================================================
 set -euo pipefail
 
@@ -8,7 +8,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_DIR="$(dirname "$SCRIPT_DIR")"
 TARGET_DIR="${HOME}/.gemini/config/skills/apolo"
 
-echo "🏛️ Instalando la skill APolo en Google Antigravity..."
+echo "🏛️ Instalando la skill APolo en Google Antigravity 2.0..."
 
 mkdir -p "$TARGET_DIR"
 cp -u "$REPO_DIR/SKILL.md" "$TARGET_DIR/SKILL.md"

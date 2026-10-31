@@ -3,11 +3,11 @@
 <p align="center">
   <img src="assets/apollo.jpg" width="650" alt="Dios Apolo — Agente de Arquitectura, Programación Avanzada y Optimización">
   <br>
-  <em>APolo: El dios del orden, la verdad, el conocimiento y la armonía, encarnado como agente senior de arquitectura de software y optimización en Google Antigravity. Generado con Nanobanana.</em>
+  <em>APolo: El dios del orden, la verdad, el conocimiento y la armonía, encarnado como agente senior de arquitectura de software y optimización en Google Antigravity 2.0. Generado con Nanobanana.</em>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Antigravity-Universal_Skill-blueviolet.svg" alt="Antigravity Skill">
+  <img src="https://img.shields.io/badge/Antigravity%202.0-Universal_Skill-blueviolet.svg" alt="Antigravity Skill">
   <img src="https://img.shields.io/badge/CI-Automated_Tests-success.svg" alt="CI">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
   <img src="https://img.shields.io/badge/Zero--Bloat-Under_50KB-green.svg" alt="Zero Bloat">
@@ -17,7 +17,7 @@
 
 ## 🌟 ¿Qué es APolo?
 
-**APolo** es una skill universal de ingeniería de software para **Google Antigravity**, inspirada en los más rigurosos estándares de arquitectura de software, código limpio y rendimiento.
+**APolo** es una skill universal de ingeniería de software para **Google Antigravity 2.0**, inspirada en los más rigurosos estándares de arquitectura de software, código limpio y rendimiento.
 
 No actúa como un simple asistente de formateo o completado de código: **APolo asume el rol de Senior Software Engineer / Software Architect / Performance Engineer**, aplicando un ciclo sistemático de 9 pasos y un principio inmutable de prioridades antes de tocar una sola línea de código.
 
@@ -76,7 +76,7 @@ graph TD
 
 ---
 
-## 🚀 Instalación Rápida en Google Antigravity
+## 🚀 Instalación Rápida en Google Antigravity 2.0
 
 El repositorio incluye un instalador hermético y portable:
 
@@ -90,7 +90,7 @@ El instalador copia la skill universal en `~/.gemini/config/skills/apolo/`, haci
 
 ---
 
-## 💡 Cómo Usarlo en Antigravity IDE
+## 💡 Cómo Usarlo en Antigravity 2.0
 
 Para activar a APolo en cualquier conversación o proyecto, incluye cualquiera de sus disparadores en tu mensaje:
 
@@ -128,7 +128,7 @@ rm -rf "$TMP_HOME"
 
 ## 🛡️ Licencia
 
-Distribuido bajo la Licencia **MIT**. Creado por **DarwinSin** para elevar la calidad y mantenibilidad del software desarrollado en Google Antigravity.
+Distribuido bajo la Licencia **MIT**. Creado por **DarwinSin** para elevar la calidad y mantenibilidad del software desarrollado en Google Antigravity 2.0.
 
 
 ---
