@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Antigravity%202.0-Universal_Skill-blueviolet.svg" alt="Antigravity Skill">
+  <img src="https://img.shields.io/badge/Environment-Universal_(Claude_Code_|_Codex_|_Antigravity_|_OpenCode)-blueviolet.svg" alt="Universal Skill">
   <img src="https://img.shields.io/badge/CI-Automated_Tests-success.svg" alt="CI">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
   <img src="https://img.shields.io/badge/Zero--Bloat-Under_50KB-green.svg" alt="Zero Bloat">
@@ -17,9 +17,23 @@
 
 ## 🌟 ¿Qué es APolo?
 
-**APolo** es una skill universal de ingeniería de software para **Google Antigravity 2.0**, inspirada en los más rigurosos estándares de arquitectura de software, código limpio y rendimiento.
+**APolo** es una skill universal de ingeniería de software compatible con cualquier entorno asistido por Inteligencia Artificial (**Claude Code, OpenAI Codex, Google Antigravity 2.0, OpenCode CLI, Cursor, etc.**), inspirada en los más rigurosos estándares de arquitectura de software, código limpio y rendimiento.
 
 No actúa como un simple asistente de formateo o completado de código: **APolo asume el rol de Senior Software Engineer / Software Architect / Performance Engineer**, aplicando un ciclo sistemático de 9 pasos y un principio inmutable de prioridades antes de tocar una sola línea de código.
+
+---
+
+## 🌐 Compatibilidad Universal Multi-Entorno
+
+APolo opera de forma agnóstica de infraestructura, garantizando el mismo rigor técnico en todos los entornos:
+
+| Entorno / Plataforma | Integración y Despliegue |
+| :--- | :--- |
+| **🤖 Google Antigravity (AGY 2.0)** | Integración nativa como Skill en `~/.gemini/config/skills/apolo/`. Se activa vía chat (`apolo`, `modo apolo`, `@apolo`) o subagentes. |
+| **🧠 Claude Code (Anthropic)** | Compatible como skill de CLI o directiva en `~/.claude/skills/apolo` o inyectado en `CLAUDE.md`. Eleva las auditorías y refactorizaciones críticas. |
+| **⚡ OpenCode CLI** | Compatible directamente en terminal (`opencode`) utilizando modelos DeepSeek, Claude o GPT, guiando tareas de arquitectura y optimización. |
+| **⚙️ OpenAI Codex / ChatGPT** | Aplicable en System Prompts, Custom Instructions o Custom GPTs técnicos con ejecución en sandboxes. |
+| **💻 Cursor / VS Code / Windsurf** | Integrable a nivel de proyecto (`.cursorrules`, `.windsurfrules`) para exigir código limpio, mantenible y eficiente. |
 
 ---
 
